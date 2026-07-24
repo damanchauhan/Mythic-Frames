@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "slug": "aang",
+    "name": "Aang",
+    "series": "Avatar: The Last Airbender",
+    "type": "Animation",
+    "cover": "/assets/images/avatar/Aang-with-momo.png",
+    "description": "The last Airbender reimagined with cinematic realism.",
+    "artworks": [
+      "aang-with-momo"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "zuko",
+    "name": "Zuko",
+    "series": "Avatar: The Last Airbender",
+    "type": "Animation",
+    "cover": "/assets/images/avatar/Zuko-firebending.png",
+    "description": "Photorealistic recreations of Prince Zuko from Avatar: The Last Airbender.",
+    "artworks": [
+      "zuko-dance",
+      "zuko-firebending",
+      "zuko-flex",
+      "zuko-with-hand-on-face"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "toph-beifong",
+    "name": "Toph Beifong",
+    "series": "Avatar: The Last Airbender",
+    "type": "Animation",
+    "cover": "/assets/images/avatar/Toph-standing-pose.png",
+    "description": "Realistic artwork of the legendary Earthbender.",
+    "artworks": [
+      "toph-fighting-pose",
+      "toph-standing-pose"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "osamu-dazai",
+    "name": "Osamu Dazai",
+    "series": "Bungou Stray Dogs",
+    "type": "Anime",
+    "cover": "/assets/images/bsd/Dazai-poster.png",
+    "description": "Cinematic AI recreations of Osamu Dazai.",
+    "artworks": [
+      "dazai-poster",
+      "dazai-side",
+      "dazai-siting"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "chuuya-nakahara",
+    "name": "Chuuya Nakahara",
+    "series": "Bungou Stray Dogs",
+    "type": "Anime",
+    "cover": "/assets/images/bsd/Chuuya-solo.png",
+    "description": "Photorealistic artwork of Chuuya Nakahara.",
+    "artworks": [
+      "chuuya-solo",
+      "chuuya-with-stairs"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "ranpo-edogawa",
+    "name": "Ranpo Edogawa",
+    "series": "Bungou Stray Dogs",
+    "type": "Anime",
+    "cover": "/assets/images/bsd/Ranpo-brown-robe.png",
+    "description": "Realistic AI portraits of Ranpo Edogawa.",
+    "artworks": [
+      "ranpo-brown-robe",
+      "ranpo-in-coat"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "misa-amane",
+    "name": "Misa Amane",
+    "series": "Death Note",
+    "type": "Anime",
+    "cover": "/assets/images/death-note/Misa-apple.png",
+    "description": "Photorealistic recreations of Misa Amane.",
+    "artworks": [
+      "misa-apple",
+      "misa-flowers",
+      "misa-from-up",
+      "misa-gothic",
+      "misa-in-bar",
+      "misa-in-coat",
+      "misa-near-wall",
+      "misa-rem",
+      "misa-scythe",
+      "misa-sitting",
+      "misa-sitting-on-floor"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "light-yagami",
+    "name": "Light Yagami",
+    "series": "Death Note",
+    "type": "Anime",
+    "cover": "/assets/images/death-note/Light-smile.png",
+    "description": "Dark cinematic artwork of Light Yagami.",
+    "artworks": [
+      "light-ryuk",
+      "light-smile"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "l-lawliet",
+    "name": "L Lawliet",
+    "series": "Death Note",
+    "type": "Anime",
+    "cover": "/assets/images/death-note/L-lawliet-sitting.png",
+    "description": "Photorealistic interpretation of L.",
+    "artworks": [
+      "l-lawliet-sitting"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "hinata-shoyo",
+    "name": "Hinata Shoyo",
+    "series": "Haikyuu!!",
+    "type": "Anime",
+    "cover": "/assets/images/haikyuu/Hinata.png",
+    "description": "Realistic artwork of Hinata Shoyo.",
+    "artworks": [
+      "hinata"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "the-fool",
+    "name": "The Fool",
+    "series": "Lord of the Mysteries",
+    "type": "Novel",
+    "cover": "/assets/images/lotm/Fool-throne.png",
+    "description": "A cinematic recreation inspired by Lord of the Mysteries.",
+    "artworks": [
+      "fool-throne"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "garou",
+    "name": "Garou",
+    "series": "One Punch Man",
+    "type": "Anime",
+    "cover": "/assets/images/one-punch-man/Garou.png",
+    "description": "Hyper-realistic artwork of the Hero Hunter.",
+    "artworks": [
+      "garou"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "genos",
+    "name": "Genos",
+    "series": "One Punch Man",
+    "type": "Anime",
+    "cover": "/assets/images/one-punch-man/Genos.png",
+    "description": "Photorealistic artwork of Genos.",
+    "artworks": [
+      "genos"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "original-character",
+    "name": "Original Character",
+    "series": "Original",
+    "type": "Original",
+    "cover": "/assets/images/originals/AnimeBoy.png",
+    "description": "Original fantasy character concept created by Mythic Frames.",
+    "artworks": [
+      "anime-boy",
+      "anime-girl"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "cha-hae-in",
+    "name": "Cha Hae-In",
+    "series": "Solo Leveling",
+    "type": "Manhwa",
+    "cover": "/assets/images/solo-leveling/Cha-hae-in-sword.png",
+    "description": "Photorealistic artwork of Cha Hae-In.",
+    "artworks": [
+      "cha-hae-in-aura",
+      "cha-hae-in-cute",
+      "cha-hae-in-gym",
+      "cha-hae-in-normal",
+      "cha-hae-in-sword"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "igris",
+    "name": "Igris",
+    "series": "Solo Leveling",
+    "type": "Manhwa",
+    "cover": "/assets/images/solo-leveling/Igris-throne.png",
+    "description": "Epic realistic artwork of Igris.",
+    "artworks": [
+      "igris-throne"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "architect",
+    "name": "Architect",
+    "series": "Solo Leveling",
+    "type": "Manhwa",
+    "cover": "/assets/images/solo-leveling/Architect.png",
+    "description": "Dark fantasy artwork of the Architect.",
+    "artworks": [
+      "architect"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "sung-jin-woo",
+    "name": "Sung Jin-Woo",
+    "series": "Solo Leveling",
+    "type": "Manhwa",
+    "cover": "/assets/images/solo-leveling/SoloLeveling-cover.png",
+    "description": "Realistic Solo Leveling artwork.",
+    "artworks": [
+      "solo-leveling-cover"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "ken-ryuguji",
+    "name": "Ken Ryuguji",
+    "series": "Tokyo Revengers",
+    "type": "Anime",
+    "cover": "/assets/images/tokyo-revengers/Draken.png",
+    "description": "Photorealistic artwork of Draken.",
+    "artworks": [
+      "draken"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "albedo",
+    "name": "Albedo",
+    "series": "Overlord",
+    "type": "Anime",
+    "cover": "/assets/images/overlord/Albedo-black.png",
+    "description": "Hyper-realistic recreations of Albedo from Overlord.",
+    "artworks": [
+      "albedo-flowers",
+      "albedo-black",
+      "albedo-white"
+    ]
+  }
+]

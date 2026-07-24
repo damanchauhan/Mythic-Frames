@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Character | Mythic Frames</title>
+
+    <meta
+        name="description"
+        content="Explore detailed character profiles and photorealistic AI artwork from Mythic Frames. Discover every artwork, series, and collection inspired by Anime, Manhwa, Fantasy, and Original Characters.">
+
+    <meta
+        name="keywords"
+        content="Anime Character, Manhwa Character, Fantasy Character, AI Artwork, Character Profile, Mythic Frames, Realistic Anime">
+
+    <meta
+        name="author"
+        content="Mythic Frames">
+
+    <meta
+        name="theme-color"
+        content="#090909">
+
+    <meta
+        name="color-scheme"
+        content="dark">
+
+    <!-- Open Graph -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mythic Frames">
+    <meta property="og:title" content="Character | Mythic Frames">
+    <meta
+        property="og:description"
+        content="Discover cinematic AI recreations of iconic Anime, Manhwa, Fantasy, and Original characters with artwork galleries and detailed profiles.">
+    <meta property="og:image" content="assets/logo/website-banner.png">
+    <meta property="og:url" content="character.html">
+
+    <!-- Twitter -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Character | Mythic Frames">
+    <meta
+        name="twitter:description"
+        content="Explore premium AI character artwork and complete galleries from Mythic Frames.">
+    <meta name="twitter:image" content="assets/logo/website-banner.png">
+
+    <!-- Manifest -->
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Favicons -->
+
+    <link rel="icon" href="assets/logo/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Optional dynamic SEO -->
+    <script src="js/seo.js" defer></script>
+    <script src="js/toast.js" defer></script>
+    <script src="js/character.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Mythic Frames</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search characters..."
+                    aria-label="Search characters">
+
+                <a
+                    href="https://in.pinterest.com/mythic_frames/?invite_code=062c7008dd814f44abd65669552c20bd&sender=1099793308911688834"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-explore-btn">
+                    Pinterest
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= CHARACTER PAGE ================= -->
+    <main class="character-page" id="characterPage">
+
+        <!-- ================= BREADCRUMBS ================= -->
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="characters.html">Characters</a>
+            <span>/</span>
+            <span id="breadcrumbCharacter">Character</span>
+        </div>
+
+        <!-- ================= HERO ================= -->
+        <section class="character-hero">
+
+            <div class="character-cover">
+                <img
+                    id="characterImage"
+                    src=""
+                    alt=""
+                    loading="eager">
+            </div>
+
+            <div class="character-content">
+                <span id="characterType" class="badge">Anime</span>
+
+                <h1 id="characterName">Character Name</h1>
+
+                <h2 id="characterSeries">Series Name</h2>
+
+                <p id="characterDescription">
+                    Character description.
+                </p>
+
+                <!-- ================= CHARACTER INFO ================= -->
+                <div class="character-stats">
+                    <div class="info-card">
+                        <span>Series</span>
+                        <strong id="seriesName">—</strong>
+                    </div>
+
+                    <div class="info-card">
+                        <span>Collection</span>
+                        <strong id="collectionName">—</strong>
+                    </div>
+
+                    <div class="info-card">
+                        <span>Artworks</span>
+                        <strong id="artworkCount">0</strong>
+                    </div>
+
+                    <div class="info-card">
+                        <span>Category</span>
+                        <strong id="characterCategory">—</strong>
+                    </div>
+                </div>
+
+                <!-- ================= TAGS ================= -->
+                <div class="tag-section">
+                    <h3>Tags</h3>
+                    <div id="characterTags" class="tag-list"></div>
+                </div>
+
+                <!-- ================= ACTIONS ================= -->
+                <div class="hero-buttons">
+                    <a
+                        id="galleryButton"
+                        href="gallery.html"
+                        class="primary">
+                        Browse All Artwork
+                    </a>
+
+                    <a
+                        id="collectionButton"
+                        href="#"
+                        class="secondary">
+                        View Collection
+                    </a>
+
+                    <button
+                        id="shareCharacter"
+                        type="button"
+                        class="secondary">
+                        Share Character
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CHARACTER ARTWORK ================= -->
+        <section id="artworkSection">
+            <div class="section-heading">
+                <h2>Character Artwork</h2>
+                <p>Every Mythic Frames artwork featuring this character.</p>
+            </div>
+
+            <div id="characterGallery" class="masonry"></div>
+        </section>
+
+        <!-- ================= RELATED CHARACTERS ================= -->
+        <section id="relatedSection">
+            <div class="section-heading">
+                <h2>Related Characters</h2>
+                <p>Explore more characters from the same series and collection.</p>
+            </div>
+
+            <div id="relatedCharacters" class="featured-grid"></div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-logo">Mythic Frames</div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="collections.html">Collections</a>
+            <a href="characters.html">Characters</a>
+            <a
+                href="https://in.pinterest.com/mythic_frames/?invite_code=062c7008dd814f44abd65669552c20bd&sender=1099793308911688834"
+                target="_blank"
+                rel="noopener noreferrer">
+                Pinterest
+            </a>
+        </div>
+
+        <p>© 2026 Mythic Frames. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ================= TOAST ================= -->
+    <div id="toast" class="toast">
+        <span id="toastIcon">✓</span>
+        <span id="toastText">Done</span>
+    </div>
+
+</body>
+</html>

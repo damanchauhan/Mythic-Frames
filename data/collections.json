@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "slug": "avatar",
+    "name": "Avatar",
+    "description": "Photorealistic recreations from Avatar: The Last Airbender.",
+    "cover": "/assets/images/avatar/Zuko-firebending.png",
+    "folder": "avatar",
+    "type": "Anime",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "bungou-stray-dogs",
+    "name": "Bungou Stray Dogs",
+    "description": "Realistic artwork inspired by Bungou Stray Dogs.",
+    "cover": "/assets/images/bsd/Dazai-poster.png",
+    "folder": "bsd",
+    "type": "Anime",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "death-note",
+    "name": "Death Note",
+    "description": "Dark, cinematic recreations of Death Note characters.",
+    "cover": "/assets/images/death-note/Misa-apple.png",
+    "folder": "death-note",
+    "type": "Anime",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "haikyuu",
+    "name": "Haikyuu",
+    "description": "Realistic volleyball legends from Haikyuu.",
+    "cover": "/assets/images/haikyuu/Hinata.png",
+    "folder": "haikyuu",
+    "type": "Anime",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "slug": "lord-of-the-mysteries",
+    "name": "Lord of the Mysteries",
+    "description": "Dark fantasy artwork inspired by Lord of the Mysteries.",
+    "cover": "/assets/images/lotm/Fool-throne.png",
+    "folder": "lotm",
+    "type": "Novel",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "slug": "one-punch-man",
+    "name": "One Punch Man",
+    "description": "Realistic recreations of heroes and monsters from One Punch Man.",
+    "cover": "/assets/images/one-punch-man/Garou.png",
+    "folder": "one-punch-man",
+    "type": "Anime",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "slug": "originals",
+    "name": "Originals",
+    "description": "Original AI fantasy characters created by Mythic Frames.",
+    "cover": "/assets/images/originals/AnimeGirl.png",
+    "folder": "originals",
+    "type": "Original",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "overlord",
+    "name": "Overlord",
+    "description": "Photorealistic artwork inspired by Overlord.",
+    "cover": "/assets/images/overlord/Albedo-black.png",
+    "folder": "overlord",
+    "type": "Anime",
+    "featured": true
+  },
+  {
+    "id": 9,
+    "slug": "solo-leveling",
+    "name": "Solo Leveling",
+    "description": "Epic realistic artwork from Solo Leveling.",
+    "cover": "/assets/images/solo-leveling/Igris-throne.png",
+    "folder": "solo-leveling",
+    "type": "Manhwa",
+    "featured": true
+  },
+  {
+    "id": 10,
+    "slug": "tokyo-revengers",
+    "name": "Tokyo Revengers",
+    "description": "Photorealistic Tokyo Revengers artwork.",
+    "cover": "/assets/images/tokyo-revengers/Draken.png",
+    "folder": "tokyo-revengers",
+    "type": "Anime",
+    "featured": false
+  }
+]
