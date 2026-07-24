@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         breadcrumbTitle: document.getElementById("breadcrumbTitle"),
         pinterestLink: document.getElementById("pinterestLink"),
         shareButton: document.getElementById("shareButton"),
+        downloadButton: document.getElementById("downloadButton"),
         prevButton: document.getElementById("prevArtwork"),
         nextButton: document.getElementById("nextArtwork"),
         characterButton: document.getElementById("characterButton"),
@@ -222,6 +223,25 @@ document.addEventListener("DOMContentLoaded", async () => {
                     }
                 } catch {
                     // user canceled or clipboard unavailable
+                }
+            };
+        }
+
+        if (els.downloadButton) {
+            els.downloadButton.onclick = () => {
+                const imageUrl = current.image || current.thumbnail || els.image?.src || "";
+                if (!imageUrl) return;
+
+                const link = document.createElement("a");
+                link.href = imageUrl;
+                link.download = `${current.slug || "artwork"}.png`;
+
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                if (typeof showToast === "function") {
+                    showToast("Download started", "⬇");
                 }
             };
         }
