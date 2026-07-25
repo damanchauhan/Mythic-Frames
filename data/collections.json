@@ -6,8 +6,9 @@
     "description": "Photorealistic recreations from Avatar: The Last Airbender.",
     "cover": "/assets/images/avatar/Zuko-firebending.png",
     "folder": "avatar",
-    "type": "Anime",
-    "featured": true
+    "type": "Animation",
+    "featured": true,
+    "count": 7
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "cover": "/assets/images/bsd/Dazai-poster.png",
     "folder": "bsd",
     "type": "Anime",
-    "featured": true
+    "featured": true,
+    "count": 7
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "cover": "/assets/images/death-note/Misa-apple.png",
     "folder": "death-note",
     "type": "Anime",
-    "featured": true
+    "featured": true,
+    "count": 14
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "cover": "/assets/images/haikyuu/Hinata.png",
     "folder": "haikyuu",
     "type": "Anime",
-    "featured": false
+    "featured": false,
+    "count": 1
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "cover": "/assets/images/lotm/Fool-throne.png",
     "folder": "lotm",
     "type": "Novel",
-    "featured": true
+    "featured": true,
+    "count": 1
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "cover": "/assets/images/one-punch-man/Garou.png",
     "folder": "one-punch-man",
     "type": "Anime",
-    "featured": true
+    "featured": true,
+    "count": 2
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "cover": "/assets/images/originals/AnimeGirl.png",
     "folder": "originals",
     "type": "Original",
-    "featured": false
+    "featured": false,
+    "count": 2
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "cover": "/assets/images/overlord/Albedo-black.png",
     "folder": "overlord",
     "type": "Anime",
-    "featured": true
+    "featured": true,
+    "count": 3
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "cover": "/assets/images/solo-leveling/Igris-throne.png",
     "folder": "solo-leveling",
     "type": "Manhwa",
-    "featured": true
+    "featured": true,
+    "count": 8
   },
   {
     "id": 10,
@@ -97,6 +106,7 @@
     "cover": "/assets/images/tokyo-revengers/Draken.png",
     "folder": "tokyo-revengers",
     "type": "Anime",
-    "featured": false
+    "featured": false,
+    "count": 1
   }
 ]
