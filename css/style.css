@@ -1444,50 +1444,104 @@ footer p{
 }
 
 @media(max-width:768px){
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    header{
+        position:relative;
+    }
+
     .navbar{
-        flex-wrap:wrap;
+        width:min(94%,600px);
+
+        min-height:auto;
+
+        flex-direction:column;
         justify-content:center;
-        gap:20px;
+        align-items:center;
+
+        gap:18px;
+
+        padding:20px 0;
     }
 
     .logo{
         width:100%;
         text-align:center;
+        font-size:2.2rem;
     }
 
     .nav-links{
+        display:flex;
         flex-wrap:wrap;
         justify-content:center;
-        gap:16px;
+        gap:20px;
+    }
+
+    .nav-links a{
+        font-size:1rem;
     }
 
     .nav-buttons{
         width:100%;
+        display:flex;
+        gap:14px;
         justify-content:center;
+        align-items:center;
     }
 
     .nav-buttons input{
-        width:100%;
+        flex:1;
         max-width:320px;
+        width:auto;
     }
 
+    .nav-explore-btn{
+        padding:12px 28px;
+        white-space:nowrap;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
     .hero{
-        padding:120px 25px;
+        min-height:100vh;
+        padding:80px 24px;
         text-align:center;
     }
 
     .hero-content{
         margin:auto;
+        padding-top:0;
     }
 
     .hero h1{
-        font-size:48px;
+        font-size:3rem;
+        line-height:1.15;
+    }
+
+    .hero p{
+        font-size:1.15rem;
     }
 
     .hero-buttons{
-        justify-content:center;
-        flex-wrap:wrap;
+        flex-direction:column;
+        align-items:center;
+        gap:16px;
     }
+
+    .hero-buttons .primary,
+    .hero-buttons .secondary{
+        width:100%;
+        max-width:420px;
+    }
+
+    /* =========================
+       LAYOUT
+    ========================= */
 
     .featured-grid,
     .characters-grid,
@@ -1508,6 +1562,14 @@ footer p{
         width:100%;
     }
 
+    .artwork-actions-row{
+        grid-template-columns:1fr;
+    }
+
+    .artwork-nav{
+        flex-direction:column;
+    }
+
     footer{
         text-align:center;
     }
@@ -1517,18 +1579,11 @@ footer p{
         flex-wrap:wrap;
     }
 
-    .artwork-actions{
-        flex-direction:column;
-    }
-
-    .artwork-nav{
-        flex-direction:column;
-    }
-
     .collections-page h1,
     .characters-page h1{
         font-size:46px;
     }
+
 }
 
 @media(max-width:560px){
