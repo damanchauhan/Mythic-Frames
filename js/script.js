@@ -238,5 +238,60 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ==================================================
     // Console
     // ==================================================
+    // ==================================================
+// Mobile Menu
+// ==================================================
+
+const menuToggle = document.getElementById("menuToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+
+if (menuToggle && mobileMenu) {
+
+    menuToggle.addEventListener("click", () => {
+
+        const isOpen = mobileMenu.classList.toggle("active");
+
+        menuToggle.innerHTML = isOpen ? "✕" : "☰";
+        menuToggle.setAttribute("aria-expanded", isOpen);
+
+        document.body.classList.toggle("menu-open", isOpen);
+
+    });
+
+    document.querySelectorAll("#mobileMenu a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileMenu.classList.remove("active");
+
+            menuToggle.innerHTML = "☰";
+            menuToggle.setAttribute("aria-expanded", "false");
+
+            document.body.classList.remove("menu-open");
+
+        });
+
+    });
+
+    document.addEventListener("click", (event) => {
+
+        if (
+            mobileMenu.classList.contains("active") &&
+            !mobileMenu.contains(event.target) &&
+            !menuToggle.contains(event.target)
+        ) {
+
+            mobileMenu.classList.remove("active");
+
+            menuToggle.innerHTML = "☰";
+            menuToggle.setAttribute("aria-expanded", "false");
+
+            document.body.classList.remove("menu-open");
+
+        }
+
+    });
+
+}
     console.log("Mythic Frames Loaded Successfully");
 });
