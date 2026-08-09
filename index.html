@@ -53,33 +53,31 @@
         property="og:url"
         content="index.html">
 
-   <!-- Twitter -->
+    <!-- Twitter -->
 
-<meta
-    name="twitter:card"
-    content="summary_large_image">
+    <meta
+        name="twitter:card"
+        content="summary_large_image">
 
-<meta
-    name="twitter:title"
-    content="Gallery | Mythic Frames">
+    <meta
+        name="twitter:title"
+        content="Mythic Frames | AI Realistic Anime & Manhwa Art">
 
-<meta
-    name="twitter:description"
-    content="Explore the complete Mythic Frames collection of cinematic AI artwork.">
+    <meta
+        name="twitter:description"
+        content="Premium AI artwork inspired by Anime, Manhwa, Fantasy and Original Characters.">
 
-<meta
-    name="twitter:image"
-    content="assets/logo/website-banner.png">
+    <meta
+        name="twitter:image"
+        content="assets/logo/website-banner.png">
 
+    <!-- Manifest -->
 
-<!-- Manifest -->
+    <link
+        rel="manifest"
+        href="manifest.json">
 
-<link
-    rel="manifest"
-    href="manifest.json">
-
-
-<!-- Favicon -->
+    <!-- Favicon -->
 
 <link
     rel="icon"
@@ -111,24 +109,103 @@
 <body>
 
     <!-- ================= NAVBAR ================= -->
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Mythic Frames</a>
+   <header>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="characters.html">Characters</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
+    <nav class="navbar">
 
-            <div class="nav-buttons">
-                <input type="text" placeholder="Search artwork..." aria-label="Search artwork">
-                <a href="gallery.html" class="nav-explore-btn">Explore</a>
-            </div>
-        </nav>
-    </header>
+        <a href="index.html" class="logo">
+
+            Mythic Frames
+
+        </a>
+
+        <!-- Desktop Navigation -->
+
+        <ul class="nav-links desktop-nav">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="nav-buttons desktop-nav">
+
+            <input
+                type="text"
+                placeholder="Search artwork..."
+                aria-label="Search artwork">
+
+            <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+            </a>
+
+        </div>
+
+        <!-- Mobile Toggle -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu">
+
+        <ul class="mobile-nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="mobile-nav-buttons">
+
+            <input
+                type="text"
+                placeholder="Search artwork..."
+                aria-label="Search artwork">
+
+            <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
 
     <!-- ================= HERO ================= -->
     <section class="hero">
