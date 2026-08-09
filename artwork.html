@@ -71,13 +71,12 @@
         name="twitter:image"
         content="assets/logo/website-banner.png">
 
-    <!-- Favicons -->
+    <!-- Favicon -->
 
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" href="assets/logo/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
-    <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+<link
+    rel="icon"
+    type="image/png"
+    href="./assets/logo/favicon.png">
 
     <!-- Fonts -->
 
@@ -107,25 +106,86 @@
     </div>
 
     <!-- ================= NAVBAR ================= -->
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Mythic Frames</a>
+   <header>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="characters.html">Characters</a></li>
-                <li><a href="index.html#about">About</a></li>
-            </ul>
+    <nav class="navbar">
 
-            <div class="nav-buttons">
-                <input
-                    type="text"
-                    id="search"
-                    placeholder="Search artwork..."
-                    aria-label="Search artwork">
+        <a href="index.html" class="logo">
 
+            Mythic Frames
+
+        </a>
+
+        <!-- Desktop Navigation -->
+
+        <ul class="nav-links desktop-nav">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="nav-buttons desktop-nav">
+
+            <input
+                type="text"
+                placeholder="Search artwork..."
+                aria-label="Search artwork">
+
+            <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+            </a>
+
+        </div>
+
+        <!-- Mobile Toggle -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu">
+
+        <ul class="mobile-nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="mobile-nav-buttons">
+
+             <input type="text" id="search" placeholder="Search artwork..." aria-label="Search artwork">
                 <a
                     href="https://in.pinterest.com/mythic_frames/?invite_code=062c7008dd814f44abd65669552c20bd&sender=1099793308911688834"
                     target="_blank"
@@ -133,9 +193,22 @@
                     class="nav-explore-btn">
                     Pinterest
                 </a>
+
+             <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+             </a>
+              <div class="nav-buttons">
+                
             </div>
-        </nav>
-    </header>
+        </div>
+
+    </div>
+
+</header>
 
     <!-- ================= ARTWORK ================= -->
     <main class="artwork-page" id="artworkPage">
@@ -313,6 +386,7 @@
     </footer>
 
     <script src="js/toast.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/artwork.js"></script>
 </body>
 </html>
