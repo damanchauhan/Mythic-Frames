@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <title>Mythic Frames | AI Realistic Anime & Manhwa Art</title>
+    <title>Gallery | Mythic Frames</title>
 
     <meta
         name="description"
-        content="Explore Mythic Frames, a premium gallery of hyper-realistic AI recreations inspired by Anime, Manhwa, Fantasy, and Original Characters.">
+        content="Browse the complete Mythic Frames gallery featuring hyper-realistic AI artwork inspired by Anime, Manhwa, Fantasy, and Original Characters.">
 
     <meta
         name="keywords"
-        content="Mythic Frames, AI Art, Anime Art, Manhwa Art, Realistic Anime, Fantasy Art, Digital Art, Character Art, AI Artwork">
+        content="Anime Gallery, Manhwa Gallery, AI Art, Realistic Anime, Fantasy Artwork, Original Characters, Mythic Frames">
 
     <meta
         name="author"
@@ -39,11 +42,11 @@
 
     <meta
         property="og:title"
-        content="Mythic Frames | AI Realistic Anime & Manhwa Art">
+        content="Gallery | Mythic Frames">
 
     <meta
         property="og:description"
-        content="Discover cinematic AI recreations of iconic Anime, Manhwa, Fantasy, and Original characters.">
+        content="Browse every photorealistic artwork from Mythic Frames, including Anime, Manhwa, Fantasy, and Original AI creations.">
 
     <meta
         property="og:image"
@@ -51,35 +54,33 @@
 
     <meta
         property="og:url"
-        content="index.html">
+        content="gallery.html">
 
-   <!-- Twitter -->
+    <!-- Twitter -->
 
-<meta
-    name="twitter:card"
-    content="summary_large_image">
+    <meta
+        name="twitter:card"
+        content="summary_large_image">
 
-<meta
-    name="twitter:title"
-    content="Gallery | Mythic Frames">
+    <meta
+        name="twitter:title"
+        content="Gallery | Mythic Frames">
 
-<meta
-    name="twitter:description"
-    content="Explore the complete Mythic Frames collection of cinematic AI artwork.">
+    <meta
+        name="twitter:description"
+        content="Explore the complete Mythic Frames collection of cinematic AI artwork.">
 
-<meta
-    name="twitter:image"
-    content="assets/logo/website-banner.png">
+    <meta
+        name="twitter:image"
+        content="assets/logo/website-banner.png">
 
+    <!-- Manifest -->
 
-<!-- Manifest -->
+    <link
+        rel="manifest"
+        href="manifest.json">
 
-<link
-    rel="manifest"
-    href="manifest.json">
-
-
-<!-- Favicon -->
+    <!-- Favicon -->
 
 <link
     rel="icon"
@@ -106,6 +107,7 @@
     <link
         rel="stylesheet"
         href="css/style.css">
+
 </head>
 
 <!-- ================= TOAST ================= -->
@@ -119,19 +121,85 @@
 
     <!-- ================= NAVBAR ================= -->
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Mythic Frames</a>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="characters.html">Characters</a></li>
-                <li><a href="index.html#about">About</a></li>
-            </ul>
+    <nav class="navbar">
 
-            <div class="nav-buttons">
-                <input type="text" id="search" placeholder="Search artwork..." aria-label="Search artwork">
+        <a href="index.html" class="logo">
+
+            Mythic Frames
+
+        </a>
+
+        <!-- Desktop Navigation -->
+
+        <ul class="nav-links desktop-nav">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="nav-buttons desktop-nav">
+
+            <input
+                type="text"
+                placeholder="Search artwork..."
+                aria-label="Search artwork">
+
+            <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+            </a>
+
+        </div>
+
+        <!-- Mobile Toggle -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu">
+
+        <ul class="mobile-nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="mobile-nav-buttons">
+
+             <input type="text" id="search" placeholder="Search artwork..." aria-label="Search artwork">
                 <a
                     href="https://in.pinterest.com/mythic_frames/?invite_code=062c7008dd814f44abd65669552c20bd&sender=1099793308911688834"
                     target="_blank"
@@ -139,9 +207,22 @@
                     class="nav-explore-btn">
                     Pinterest
                 </a>
-            </div>
-        </nav>
-    </header>
+
+             <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+             </a>
+              <div class="nav-buttons">
+                
+            </div>>
+        </div>
+
+    </div>
+
+</header>
 
     <!-- ================= PAGE HEADER ================= -->
     <section class="gallery-page">
@@ -224,5 +305,6 @@
 
     <script src="js/toast.js"></script>
     <script src="js/gallery.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
