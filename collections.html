@@ -81,12 +81,12 @@
         rel="manifest"
         href="manifest.json">
 
-    <!-- Favicon -->
+   <!-- Favicon -->
 
 <link
     rel="icon"
     type="image/png"
-    href="assets/logo/favicon.png">
+    href="./assets/logo/favicon.png">
 
     <!-- Google Fonts -->
 
@@ -122,40 +122,105 @@
 
 <header>
 
-<nav class="navbar">
+    <nav class="navbar">
 
-<a href="index.html" class="logo">
+        <a href="index.html" class="logo">
 
-Mythic Frames
+            Mythic Frames
 
-</a>
+        </a>
 
-<ul class="nav-links">
+        <!-- Desktop Navigation -->
 
-<li><a href="index.html">Home</a></li>
+        <ul class="nav-links desktop-nav">
 
-<li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html">Home</a></li>
 
-<li><a href="collections.html">Collections</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
 
-<li><a href="characters.html">Characters</a></li>
+            <li><a href="collections.html">Collections</a></li>
 
-<li><a href="index.html#about">About</a></li>
+            <li><a href="characters.html">Characters</a></li>
 
-</ul>
+            <li><a href="#about">About</a></li>
 
-<div class="nav-buttons">
+        </ul>
 
-<a href="gallery.html"
-class="nav-explore-btn">
+        <div class="nav-buttons desktop-nav">
 
-Explore Gallery
+            <input
+                type="text"
+                placeholder="Search artwork..."
+                aria-label="Search artwork">
 
-</a>
+            <a
+                href="gallery.html"
+                class="nav-explore-btn">
 
-</div>
+                Explore
 
-</nav>
+            </a>
+
+        </div>
+
+        <!-- Mobile Toggle -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu">
+
+        <ul class="mobile-nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="collections.html">Collections</a></li>
+
+            <li><a href="characters.html">Characters</a></li>
+
+            <li><a href="#about">About</a></li>
+
+        </ul>
+
+        <div class="mobile-nav-buttons">
+
+             <input type="text" id="search" placeholder="Search artwork..." aria-label="Search artwork">
+                <a
+                    href="https://in.pinterest.com/mythic_frames/?invite_code=062c7008dd814f44abd65669552c20bd&sender=1099793308911688834"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-explore-btn">
+                    Pinterest
+                </a>
+
+             <a
+                href="gallery.html"
+                class="nav-explore-btn">
+
+                Explore
+
+             </a>
+              <div class="nav-buttons">
+                
+            </div>>
+        </div>
+
+    </div>
 
 </header>
 
@@ -208,6 +273,7 @@ Mythic Frames
 
 <script src="js/toast.js"></script>
 <script src="js/collections.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 
